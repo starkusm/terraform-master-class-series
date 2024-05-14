@@ -29,8 +29,9 @@ variable "sshport" {
 **Boolean**
 - Bools are represented by the unquoted symbols true and false.
 ```t
-variable "enabled" {
-  default = false
+variable "boolean" {
+type = bool
+default = false
 }
 ```
 **List**
