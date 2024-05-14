@@ -30,8 +30,8 @@ variable "sshport" {
 - Bools are represented by the unquoted symbols true and false.
 ```t
 variable "boolean" {
-type = bool
-default = false
+   type = bool
+   default = false
 }
 ```
 **List**
