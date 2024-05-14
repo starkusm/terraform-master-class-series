@@ -21,8 +21,8 @@ variable "vpcname" {
 - Numbers are represented by unquoted sequences of digits with or without a decimal point, like 15 or 6.283185.
 ```t
 variable "sshport" {
-  type    = number
-  default = 22
+   type    = number
+   default = 22
 }
 ```
 
